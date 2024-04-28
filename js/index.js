@@ -34,7 +34,6 @@ function getSecondsSinceStartOfDay() {
       hour.style.transform = `rotate(${getHourHandAngle(time)}deg)`;
       minutes.style.transform = `rotate(${getMinuteHandAngle(time)}deg)`;
       seconds.style.transform = `rotate(${getSecondHandAngle(time)}deg)`;
-      console.log(time);
       // your code here
   }, 1000);
   
