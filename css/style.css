@@ -1,0 +1,74 @@
+#face {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 6px solid black;
+    position: relative;
+  }
+  #face span{
+    position: absolute;
+    transform: rotate(calc(30deg* var(--i)));
+    inset: 12px;
+    text-align: center;
+  }
+  #minutes, #hour, #seconds {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform-origin: top center;
+    border-radius: 20px;
+  }
+  
+  #hour {
+    background-color: black;
+    height: 100px;
+    width: 8px;
+  }
+  
+  #minutes {
+    background-color: grey;
+    height: 120px;
+    width: 4px;
+  }
+  
+  #seconds {
+    background-color: red;
+    height: 130px;
+    width: 2px;
+  }#face {
+    background-color: #d3debd;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 6px solid black;
+    position: relative;
+  }
+  
+  #minutes, #hour, #seconds {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform-origin: top center;
+  }
+  
+  #hour {
+    background-color: black;
+    height: 100px;
+    width: 8px;
+  }
+  
+  #minutes {
+    background-color: grey;
+    height: 120px;
+    width: 4px;
+  }
+  
+  #seconds {
+    background-color: red;
+    height: 130px;
+    width: 2px;
+  }
